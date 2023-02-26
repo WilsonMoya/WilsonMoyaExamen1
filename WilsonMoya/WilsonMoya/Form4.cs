@@ -25,6 +25,7 @@ namespace WilsonMoya
 
         private void numeros1en1()
         {
+            listBox1.Items.Clear();
             for (int i = 1; i <= 100; i++)
             {
                 if (i % 3 == 0 && i % 5 == 0)
@@ -45,6 +46,18 @@ namespace WilsonMoya
                     listBox1.Items.Add(i.ToString());
                 }
             }
+        }
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form1 frm = new Form1();
+            frm.Show();
+            Close();
         }
     }
 }
