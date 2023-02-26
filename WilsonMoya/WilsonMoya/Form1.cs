@@ -16,5 +16,23 @@ namespace WilsonMoya
         {
             InitializeComponent();
         }
+
+        private void financieraElProgramadorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 frm = new Form2();
+            frm.Show();
+        }
+
+        private void tiendaElProgramadorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3 frm = new Form3();
+            frm.Show();
+        }
+
+        private void numerosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form4 frm = new Form4();
+            frm.Show();
+        }
     }
 }
