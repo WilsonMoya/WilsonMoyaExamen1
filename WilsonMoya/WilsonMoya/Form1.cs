@@ -19,7 +19,6 @@ namespace WilsonMoya
 
         private void financieraElProgramadorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Close();
             Form2 frm = new Form2();
             frm.Show();
 

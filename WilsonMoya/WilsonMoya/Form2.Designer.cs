@@ -90,7 +90,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(116, 23);
             this.button4.TabIndex = 60;
-            this.button4.Text = "Interes del 1.015";
+            this.button4.Text = "Interes del 15%";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // Form2
