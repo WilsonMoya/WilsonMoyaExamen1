@@ -29,34 +29,34 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.Intereses = new System.Windows.Forms.ListBox();
+            this.InteresesTotal = new System.Windows.Forms.ListBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(202, 297);
+            this.button1.Location = new System.Drawing.Point(276, 297);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(91, 23);
+            this.button1.Size = new System.Drawing.Size(100, 23);
             this.button1.TabIndex = 3;
-            this.button1.Text = "Calcular";
+            this.button1.Text = "Calcular Intereses";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Intereses
+            // InteresesTotal
             // 
-            this.Intereses.FormattingEnabled = true;
-            this.Intereses.Location = new System.Drawing.Point(12, 57);
-            this.Intereses.Name = "Intereses";
-            this.Intereses.Size = new System.Drawing.Size(184, 290);
-            this.Intereses.TabIndex = 2;
+            this.InteresesTotal.FormattingEnabled = true;
+            this.InteresesTotal.Location = new System.Drawing.Point(12, 57);
+            this.InteresesTotal.Name = "InteresesTotal";
+            this.InteresesTotal.Size = new System.Drawing.Size(258, 290);
+            this.InteresesTotal.TabIndex = 2;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(202, 324);
+            this.button2.Location = new System.Drawing.Point(276, 324);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(91, 23);
+            this.button2.Size = new System.Drawing.Size(100, 23);
             this.button2.TabIndex = 57;
             this.button2.Text = "Menu Principal";
             this.button2.UseVisualStyleBackColor = true;
@@ -75,11 +75,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(305, 366);
+            this.ClientSize = new System.Drawing.Size(377, 366);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.Intereses);
+            this.Controls.Add(this.InteresesTotal);
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ejercicio 1";
@@ -91,7 +91,7 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ListBox Intereses;
+        private System.Windows.Forms.ListBox InteresesTotal;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
     }
