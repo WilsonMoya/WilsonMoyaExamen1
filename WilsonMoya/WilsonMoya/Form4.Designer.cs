@@ -47,11 +47,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(86, 16);
+            this.label1.Location = new System.Drawing.Point(62, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 13);
+            this.label1.Size = new System.Drawing.Size(137, 13);
             this.label1.TabIndex = 14;
-            this.label1.Text = "Numeros del 1-100";
+            this.label1.Text = "Generar Numeros del 1-100";
             // 
             // listBox1
             // 
@@ -82,7 +82,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Form4";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form4";
+            this.Text = "Ejercicio 3";
             this.Load += new System.EventHandler(this.Form4_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

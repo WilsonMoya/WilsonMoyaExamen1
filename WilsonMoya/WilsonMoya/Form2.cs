@@ -21,16 +21,20 @@ namespace WilsonMoya
         {
             {
                 double capital = 200000.00;
-                double tasaInteresMensual = 0.015;
-                double interesMensual;
-                double capitalAcumulado = capital;
-
+                double Interes = 0.015;
+                double interes2;
+                double Acum = capital;
+                
                 Intereses.Items.Clear();
-                for (int mes = 1; mes <= 12; mes++)
+                string[] vector = { "2023 Enero Recibio", "2023 Febrero  Recibio", "2023 Marzo Recibio", "2023 Abril Recibio", "2023 Mayo Recibio", "2023 junio Recibio", "2023 julio Recibio", "2023 agosto Recibio", "2023 septiembre Recibio", "2023 ocubre Recibio", "2023 noviembre Recibio", "2023 diciembre Fin de año Recibio" };
+                for (int i = 0; i < vector.Length; i++)
                 {
-                    interesMensual = capitalAcumulado * tasaInteresMensual;
-                    capitalAcumulado += interesMensual;
-                    Intereses.Items.Add(string.Format("Mes {0}: L {1:0.00}", mes, interesMensual));
+
+
+                    interes2 = Acum * Interes;
+                    Acum += interes2;
+                    Intereses.Items.Add(vector[i] + " " + (interes2) + " Lps de Intereses");
+                   
                 }
 
             }

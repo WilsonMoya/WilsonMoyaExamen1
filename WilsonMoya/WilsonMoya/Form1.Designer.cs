@@ -39,7 +39,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(53, 40);
+            this.label1.Location = new System.Drawing.Point(74, 53);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(224, 13);
             this.label1.TabIndex = 13;
@@ -53,7 +53,7 @@
             this.numerosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(379, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(372, 24);
             this.menuStrip1.TabIndex = 14;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -82,12 +82,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(379, 75);
+            this.ClientSize = new System.Drawing.Size(372, 75);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Menu";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
