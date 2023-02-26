@@ -19,8 +19,10 @@ namespace WilsonMoya
 
         private void financieraElProgramadorToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Close();
             Form2 frm = new Form2();
             frm.Show();
+
         }
 
         private void tiendaElProgramadorToolStripMenuItem_Click(object sender, EventArgs e)
@@ -33,6 +35,11 @@ namespace WilsonMoya
         {
             Form4 frm = new Form4();
             frm.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -43,5 +43,10 @@ namespace WilsonMoya
             frm.Show();
             Close();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -32,11 +32,13 @@
             this.InteresesTotal = new System.Windows.Forms.ListBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(276, 297);
+            this.button1.Location = new System.Drawing.Point(276, 327);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 23);
             this.button1.TabIndex = 3;
@@ -47,14 +49,14 @@
             // InteresesTotal
             // 
             this.InteresesTotal.FormattingEnabled = true;
-            this.InteresesTotal.Location = new System.Drawing.Point(12, 57);
+            this.InteresesTotal.Location = new System.Drawing.Point(12, 87);
             this.InteresesTotal.Name = "InteresesTotal";
             this.InteresesTotal.Size = new System.Drawing.Size(258, 290);
             this.InteresesTotal.TabIndex = 2;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(276, 324);
+            this.button2.Location = new System.Drawing.Point(276, 354);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 23);
             this.button2.TabIndex = 57;
@@ -65,17 +67,39 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(38, 21);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(60, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 13);
+            this.label1.Size = new System.Drawing.Size(233, 18);
             this.label1.TabIndex = 58;
             this.label1.Text = "Financiera \"El Buen Programador\"";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(12, 58);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(116, 23);
+            this.button3.TabIndex = 59;
+            this.button3.Text = "Capital 200,000 Lps";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(134, 58);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(116, 23);
+            this.button4.TabIndex = 60;
+            this.button4.Text = "Interes del 1.015";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(377, 366);
+            this.ClientSize = new System.Drawing.Size(377, 389);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -94,5 +118,7 @@
         private System.Windows.Forms.ListBox InteresesTotal;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }
